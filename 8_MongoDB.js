@@ -1,44 +1,4 @@
 // ============================================================
-//  Practical No. 8 – MongoDB
-// ============================================================
-
-
-// ============================================================
-//  SECTION 1 : INSTALLATION OF MONGODB COMMUNITY VERSION
-// ============================================================
-
-// Step 1: Download MongoDB Community Server from the official MongoDB website.
-//         https://www.mongodb.com/try/download/community
-
-// Step 2: Run the installer and select the 'Complete' setup option.
-
-// Step 3: Install MongoDB as a service so it starts automatically with Windows.
-
-// Step 4: Verify MongoDB installation from Command Prompt.
-//         Run the following command in CMD:
-
-//         mongod --version
-
-
-// ============================================================
-//  SECTION 2 : CREATING DATA FOLDER FOR MONGODB
-// ============================================================
-
-// MongoDB requires a directory to store database files.
-// By default it expects the path  C:\data\db
-//
-// Step 1: Open File Explorer.
-// Step 2: Navigate to Local Disk (C:).
-// Step 3: Create a folder named  'data'.
-// Step 4: Inside the data folder create another folder named 'db'.
-//
-// Final folder structure:  C:\data\db
-//
-// You can also create the folder via CMD with:
-//         md C:\data\db
-
-
-// ============================================================
 //  QUESTION 1 – STAFF COLLECTION OPERATIONS
 // ============================================================
 //  Objective: Create a database Institution and a collection
